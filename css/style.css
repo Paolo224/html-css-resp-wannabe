@@ -132,3 +132,34 @@ img {
         width: 100%;
     }
 }
+
+@media screen and (max-width: 480px) {
+    .container{
+        width: 100%;
+    }
+    
+    .row{
+        flex-wrap: wrap;
+    }
+
+    .lessons .col{
+        width: 100%;
+    }
+
+    div.card{
+        margin-bottom: 5rem;
+    }
+
+    .steps .col {
+        width: 100%;
+    }
+
+    .why-us .col-left {
+        width: 100%;
+        margin-bottom: 3rem;
+    }
+    
+    .why-us .col-right {
+        width: 100%;
+    }
+}
